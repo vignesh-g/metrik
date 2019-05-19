@@ -1,5 +1,5 @@
-# Setup procedure
-* Clone repo.
+# Setup
+* Clone repository.
 * Make sure that you have the latest PHP version
 * Install and update composer
 

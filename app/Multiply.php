@@ -30,7 +30,7 @@ class Multiply
     */
     
     public function multiplicationTable()
-    {
+    { 
         $countArray = count($this->number);
         for ($i=0;$i<$countArray;$i++) {
             $multiply = $this->number[$i];

@@ -1,4 +1,4 @@
-# Setup 
+# Setup procedure
 * Clone repo.
 * Make sure that you have the latest PHP version
 * Install and update composer

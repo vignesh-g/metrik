@@ -44,7 +44,7 @@ class Multiply
     }
 
     /**
-    * display method displays multiplication table data
+    * display method displays multiplication table data and print string
     *
     * @param null
     *

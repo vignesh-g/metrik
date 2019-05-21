@@ -30,7 +30,7 @@ class Multiply
     */
     
     public function multiplicationTable()
-    { 
+    {
         $countArray = count($this->number);
         for ($i=0;$i<$countArray;$i++) {
             $multiply = $this->number[$i];
@@ -51,7 +51,15 @@ class Multiply
     * @return void
     */
     
-public function display()
+    public function display()
+    {
+        echo ' | '.implode(' ', $this->number)."\n";
+        echo str_repeat('---', count($this->number))."\n";
+        echo $this->tableData;
+        return;
+    }
+    
+    public function display()
     {
         echo ' | '.implode(' ', $this->number)."\n";
         echo str_repeat('---', count($this->number))."\n";

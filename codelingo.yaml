@@ -1,3 +1,5 @@
+# codelingo.yaml file
+
 tenets:
 - import: codelingo/php
 - import: codelingo/psr1

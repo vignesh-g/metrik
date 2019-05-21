@@ -31,7 +31,7 @@ class PrimeNumber
     * @return array
     */
     
- public function getPrimeNumber()
+static public function getPrimeNumber()
     {
         while (1) {
             $ceil = ceil(sqrt($this->number));

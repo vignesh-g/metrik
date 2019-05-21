@@ -58,12 +58,4 @@ class Multiply
         echo $this->tableData;
         return;
     }
-    
-    public function multiplicationTable()
-    {
-        echo ' | '.implode(' ', $this->number)."\n";
-        echo str_repeat('---', count($this->number))."\n";
-        echo $this->tableData;
-        return;
-    }
 }

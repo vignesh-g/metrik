@@ -1,4 +1,6 @@
 # codelingo.yaml file
 
 tenets:
-  - import: codelingo/go
+- import: codelingo/php
+- import: codelingo/psr1
+- import: codelingo/psr2

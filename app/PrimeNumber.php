@@ -18,7 +18,7 @@ class PrimeNumber
     * @return void
     */
   
-    static public function __construct($maxCounter)
+    public function __construct($maxCounter)
     {
         $this->maxCounter = $maxCounter - 1;
     }
@@ -31,7 +31,7 @@ class PrimeNumber
     * @return array
     */
     
-    public function getPrimeNumber()
+public function getPrimeNumber()
     {
         while (1) {
             $ceil = ceil(sqrt($this->number));

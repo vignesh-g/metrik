@@ -18,7 +18,7 @@ class PrimeNumber
     * @return void
     */
   
-    public function __construct($maxCounter)
+    static public function __construct($maxCounter)
     {
         $this->maxCounter = $maxCounter - 1;
     }

@@ -58,4 +58,5 @@ class Multiply
         echo $this->tableData;
         return;
     }
+	public function display(){}
 }

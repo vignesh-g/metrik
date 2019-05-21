@@ -59,7 +59,7 @@ class Multiply
         return;
     }
     
-    public function display()
+    public function multiplicationTable()
     {
         echo ' | '.implode(' ', $this->number)."\n";
         echo str_repeat('---', count($this->number))."\n";

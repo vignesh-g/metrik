@@ -12,7 +12,7 @@ To install packages use the following commands
 composer dump-autoload -o
 ```
 ```
-composer require phpunit/phpunit
+composer require phpunit/phpunit 
 ```
 
 To test the code use this command
